@@ -1,4 +1,4 @@
-package ru.kiloqky.graphtableapp.repository.gallery
+package ru.kiloqky.graphtableapp.data.repository.gallery
 
 import android.content.ContentValues
 import android.content.Context
@@ -9,6 +9,7 @@ import android.provider.MediaStore
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.withContext
+import ru.kiloqky.graphtableapp.domain.repository.GalleryRepository
 import java.io.File
 import java.io.FileOutputStream
 import java.io.OutputStream

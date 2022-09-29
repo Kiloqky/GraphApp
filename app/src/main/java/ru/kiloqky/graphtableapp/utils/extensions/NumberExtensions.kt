@@ -1,4 +1,4 @@
-package ru.kiloqky.graphtableapp.extensions
+package ru.kiloqky.graphtableapp.utils.extensions
 
 import android.content.res.Resources
 import android.util.TypedValue

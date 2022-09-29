@@ -11,13 +11,13 @@ import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import ru.kiloqky.graphtableapp.BuildConfig
-import ru.kiloqky.graphtableapp.api.Api
-import ru.kiloqky.graphtableapp.api.apiworker.ApiWorker
-import ru.kiloqky.graphtableapp.api.apiworker.ApiWorkerImpl
-import ru.kiloqky.graphtableapp.repository.gallery.GalleryRepository
-import ru.kiloqky.graphtableapp.repository.gallery.GalleryRepositoryImpl
-import ru.kiloqky.graphtableapp.repository.point.PointRepository
-import ru.kiloqky.graphtableapp.repository.point.PointRepositoryImpl
+import ru.kiloqky.graphtableapp.data.api.Api
+import ru.kiloqky.graphtableapp.data.api.apiworker.ApiWorker
+import ru.kiloqky.graphtableapp.data.api.apiworker.ApiWorkerImpl
+import ru.kiloqky.graphtableapp.domain.repository.GalleryRepository
+import ru.kiloqky.graphtableapp.data.repository.gallery.GalleryRepositoryImpl
+import ru.kiloqky.graphtableapp.domain.repository.PointRepository
+import ru.kiloqky.graphtableapp.data.repository.point.PointRepositoryImpl
 import javax.inject.Singleton
 
 @Module

@@ -15,7 +15,7 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 import ru.kiloqky.graphtableapp.R
-import ru.kiloqky.graphtableapp.interactors.PointInteractor
+import ru.kiloqky.graphtableapp.domain.interactors.PointInteractor
 import ru.kiloqky.graphtableapp.pojo.model.toListEntry
 import javax.inject.Inject
 

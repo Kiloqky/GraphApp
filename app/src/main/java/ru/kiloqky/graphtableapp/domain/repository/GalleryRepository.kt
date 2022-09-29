@@ -1,4 +1,4 @@
-package ru.kiloqky.graphtableapp.repository.gallery
+package ru.kiloqky.graphtableapp.domain.repository
 
 import android.graphics.Bitmap
 import kotlinx.coroutines.flow.Flow

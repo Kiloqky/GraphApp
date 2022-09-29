@@ -1,4 +1,4 @@
-package ru.kiloqky.graphtableapp.extensions
+package ru.kiloqky.graphtableapp.utils.extensions
 
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
