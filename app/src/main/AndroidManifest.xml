@@ -13,7 +13,7 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.GraphTableApp">
         <activity
-            android:name=".ui.points.PointActivity"
+            android:name=".presentation.points.PointActivity"
             android:allowBackup="false"
             android:exported="true"
             android:launchMode="singleTop">

@@ -1,4 +1,4 @@
-package ru.kiloqky.graphtableapp.ui.points.viewModels
+package ru.kiloqky.graphtableapp.presentation.points.viewModels
 
 import android.content.res.Resources
 import android.graphics.Bitmap
@@ -16,7 +16,7 @@ import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 import ru.kiloqky.graphtableapp.R
 import ru.kiloqky.graphtableapp.domain.interactors.PointInteractor
-import ru.kiloqky.graphtableapp.pojo.model.toListEntry
+import ru.kiloqky.graphtableapp.presentation.models.toListEntry
 import javax.inject.Inject
 
 @HiltViewModel
@@ -26,7 +26,7 @@ class PointViewModel @Inject constructor(
 ) : ViewModel() {
 
     private val _pointsSharedFlow = MutableSharedFlow<List<Entry>>(
-        1,
+        replay = 1,
         extraBufferCapacity = 1,
         onBufferOverflow = BufferOverflow.DROP_OLDEST
     )

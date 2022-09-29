@@ -1,4 +1,4 @@
-package ru.kiloqky.graphtableapp.ui.points.adapter
+package ru.kiloqky.graphtableapp.presentation.points.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

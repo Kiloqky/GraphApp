@@ -1,4 +1,4 @@
-package ru.kiloqky.graphtableapp.ui.points
+package ru.kiloqky.graphtableapp.presentation.points
 
 import android.os.Bundle
 import androidx.activity.viewModels
@@ -11,9 +11,9 @@ import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.onEach
 import ru.kiloqky.graphtableapp.R
 import ru.kiloqky.graphtableapp.databinding.ActivityPointBinding
+import ru.kiloqky.graphtableapp.presentation.points.adapter.PointTableAdapter
+import ru.kiloqky.graphtableapp.presentation.points.viewModels.PointViewModel
 import ru.kiloqky.graphtableapp.utils.extensions.launchWhenStarted
-import ru.kiloqky.graphtableapp.ui.points.adapter.PointTableAdapter
-import ru.kiloqky.graphtableapp.ui.points.viewModels.PointViewModel
 import ru.kiloqky.graphtableapp.utils.loadBitmapFromView
 
 @AndroidEntryPoint

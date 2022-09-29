@@ -1,6 +1,6 @@
 package ru.kiloqky.graphtableapp.data.api.apiworker
 
-import ru.kiloqky.graphtableapp.pojo.response.PointsResponse
+import ru.kiloqky.graphtableapp.data.pojo.response.PointsResponse
 
 interface ApiWorker {
 

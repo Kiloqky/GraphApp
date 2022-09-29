@@ -21,7 +21,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0" />
 
-        <ru.kiloqky.graphtableapp.ui.points.custom.GraphView
+        <ru.kiloqky.graphtableapp.presentation.points.views.GraphView
             android:id="@+id/graph"
             android:layout_width="0dp"
             android:layout_height="256dp"

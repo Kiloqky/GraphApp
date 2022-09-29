@@ -1,4 +1,4 @@
-package ru.kiloqky.graphtableapp.pojo.response
+package ru.kiloqky.graphtableapp.data.pojo.response
 
 import com.google.gson.annotations.SerializedName
 

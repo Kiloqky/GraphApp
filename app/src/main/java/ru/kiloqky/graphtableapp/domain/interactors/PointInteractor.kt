@@ -6,7 +6,7 @@ import ru.kiloqky.graphtableapp.data.api.apiworker.ApiErrorResponse
 import ru.kiloqky.graphtableapp.data.api.apiworker.ApiSuccessResponse
 import ru.kiloqky.graphtableapp.domain.repository.GalleryRepository
 import ru.kiloqky.graphtableapp.domain.repository.PointRepository
-import ru.kiloqky.graphtableapp.pojo.model.toModel
+import ru.kiloqky.graphtableapp.domain.toModel
 import ru.kiloqky.graphtableapp.utils.exceptions.NetworkException
 import javax.inject.Inject
 

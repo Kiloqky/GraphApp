@@ -14,10 +14,10 @@ import ru.kiloqky.graphtableapp.BuildConfig
 import ru.kiloqky.graphtableapp.data.api.Api
 import ru.kiloqky.graphtableapp.data.api.apiworker.ApiWorker
 import ru.kiloqky.graphtableapp.data.api.apiworker.ApiWorkerImpl
-import ru.kiloqky.graphtableapp.domain.repository.GalleryRepository
 import ru.kiloqky.graphtableapp.data.repository.gallery.GalleryRepositoryImpl
-import ru.kiloqky.graphtableapp.domain.repository.PointRepository
 import ru.kiloqky.graphtableapp.data.repository.point.PointRepositoryImpl
+import ru.kiloqky.graphtableapp.domain.repository.GalleryRepository
+import ru.kiloqky.graphtableapp.domain.repository.PointRepository
 import javax.inject.Singleton
 
 @Module

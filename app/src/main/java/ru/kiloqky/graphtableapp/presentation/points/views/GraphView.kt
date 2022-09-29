@@ -1,4 +1,4 @@
-package ru.kiloqky.graphtableapp.ui.points.custom
+package ru.kiloqky.graphtableapp.presentation.points.views
 
 import android.content.Context
 import android.graphics.Color
